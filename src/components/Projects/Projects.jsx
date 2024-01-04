@@ -12,7 +12,7 @@ const Projects = () => {
         {
           name:"E-Commerce",
           id:"2",
-          img:'https://www.anscommerce.com/blog/wp-content/uploads/2022/04/Social-Commerce-1200x675.png',
+          img:'https://www.agenciaeplus.com.br/wp-content/uploads/2020/05/o_que_%C3%A9_um_site_ecommerce.jpg',
           link:'https://e-commerce0134.netlify.app/'
         },
         {
