@@ -14,7 +14,7 @@ const Qualifications = () => {
       year: '2016 - 2018',
     },
     {
-      id: 1,
+      id: 2,
       degree: 'BE instrumentation and control',
       institution: 'd y patil college of engineering akurdi pune',
       year: '2018 - 2022',
@@ -23,13 +23,13 @@ const Qualifications = () => {
 
   const certificationData = [
     {
-      id: 1,
+      id: 3,
       title: 'Intership',
       institution: 'Internship Studio',
       year: '2021',
     },
     {
-      id: 1,
+      id: 4,
       title: 'Fullstack Web Development',
       institution: 'Prepbytes',
       year: '2022',

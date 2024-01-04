@@ -11,19 +11,19 @@ const Projects = () => {
         },
         {
           name:"E-Commerce",
-          id:"1",
+          id:"2",
           img:'https://www.anscommerce.com/blog/wp-content/uploads/2022/04/Social-Commerce-1200x675.png',
           link:'https://e-commerce0134.netlify.app/'
         },
         {
           name:"Blog-App",
-          id:"1",
+          id:"3",
           img:'https://img.freepik.com/free-vector/blogging-fun-content-creation-online-streaming-video-blog-young-girl-making-selfie-social-network-sharing-feedback-self-promotion-strategy-vector-isolated-concept-metaphor-illustration_335657-855.jpg',
           link:'https://blog-project123.netlify.app/'
         },
         {
           name:"To-Do-App",
-          id:"1",
+          id:"4",
           img:'https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png',
           link:'https://to-do-app-pk.netlify.app/'
         },
@@ -38,7 +38,7 @@ const Projects = () => {
         {data && data.map((project)=>{
             return(
                 <a target='_blank' key={project.id} href={project.link}>
-                  <div class="card">
+                  <div className="card">
                     <img src={project.img} alt="Image"/>
                       <div className='card-name'>{project.name}</div>
                   </div> 
